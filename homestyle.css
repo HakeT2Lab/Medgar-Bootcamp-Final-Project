@@ -1,4 +1,48 @@
-body {
+#subheader {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border: 2px black solid;
+}
+.box {
+  width: 700px;
+  float: right;
+  border: 1px solid none;
+}
+.box ul li {
+  width: 120px;
+  float: left;
+  margin: 10px auto;
+  text-align: center;
+}
+.box ul li a {
+  text-decoration: none;
+  color: darkgray;
+}
+.box ul li:hover {
+  background-color: white;
+}
+.box ul li a:hover {
+  color: black;
+}
+.text {
+  width: 300px;
+  height: 539px;
+  background-color: black;
+  opacity: 0.5;
+}
+
+#mainbody {
+  border: 2px solid black;
   font-family: latha, "Times New Roman", Times, serif;
-  color: white;
+  color: black;
+  /* background-color: yellow; */
+  /* background-image: url("rona.jpg") no-repeat; */
+  /* background-size: cover;
+    background-attachment: fixed; */
+}
+
+#subbody {
+  border: 2px black solid;
 }
